@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/images">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Foodpanda</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <header class="main-header">
+            <div class="logo-wrapper">
+                <a href="#" class="logo"><img src="./assets/images/logo.png" alt="logo"></a>
+            </div>
+            <div class="empty">
+            </div>
+            <div class="language-wrapper">
+                <a href="#">bg</a>
+                <a class="active" href="#">en</a>
+            </div>
+
+            <div class="login">
+                <a href="#"><img src="./assets/images/login.png" alt="login"></a>
+            </div>
+
+            <div class="basket">
+                <a href="#"><img src="./assets/images/basket.png" alt="basket"></a>
+            </div>
+        </header>
+    </div>
+    <main class="main-content">
+        <div class="main-part">
+            <div class="background"></div>
+            <div class="content">
+                <div class="content-text">
+                    <h1>Food Delivery from <strong>Sofia</strong>&#8217;s Best Restaurants</h1>
+                    <p>The meals you love, delivered with care</p>
+                </div>
+                <div class="search">
+                    <form id="delivery-information" class="location-form">
+                        <div class="address-search-container">
+                            <input type="text" class="restaurants-search-form" id="delivery-information"
+                                placeholder=" ">
+                            <label class="title" for="delivery-information">Enter your street and house number</label>
+                            <span class="locate-me">
+                                <img src="./assets/images/location.png" alt="locaion" style="width:21px;height:21px;">
+                            </span>
+                        </div>
+                        <div class="button-container">
+                            <button class="button">Find restaurants near you</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="restaurants-container">
+        <div class="restaurants-list">
+            <div class="list">
+                <span class="popular-restaurants-title">Popular restaurants</span>
+                <ul class="items">
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/1.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <picture>
+                                    <img class="picture" src="./assets/images/2.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Zeko</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.6</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (696)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Turkish</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <picture>
+                                    <img class="picture" src="./assets/images/3.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Ресторант Петък Вечер</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.1</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (9)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Delivery by foodpanda</span>
+                                            <span>International</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <picture>
+                                    <img class="picture" src="./assets/images/4.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">American Donuts</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>1</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (1)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>American</span>
+                                            <span>Bakery & Cakes</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-25% off whole menu</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/5.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Pharaoh</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>3.8</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (123)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Promos</span>
+                                            <span>Lunch menus</span>
+                                            <span>Lunch menu</span>
+                                            <span>Fast food</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-25% off whole menu</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/6.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Pizza Beti</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>3.6</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (5)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Delivery by foodpanda</span>
+                                            <span>new</span>
+                                            <span>eat for 4.99!</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <picture>
+                                    <img class="picture" src="./assets/images/7.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Djanam Steak House (Борово)</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.5</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (14)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Delivery by foodpanda</span>
+                                            <span>new</span>
+                                            <span>Turkish</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">new</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/8.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Green Coffee House</span>
+                                        <!-- <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div> -->
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Delivery by foodpanda</span>
+                                            <span>Deverages</span>
+                                            <span>Bakery</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/9.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/10.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/11.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/12.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/13.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/14.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/15.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="nnn">
+                                <div class="tag-container">
+                                    <span class="multi-tag">-30% off on category</span>
+                                </div>
+                                <picture>
+                                    <img class="picture" src="./assets/images/16.png" alt="picture">
+                                </picture>
+                                <figcaption class="items-info">
+                                    <span class="headline">
+                                        <span class="name">Dilwale-Indian restaurant</span>
+                                        <div class="rating-info">
+                                            <span class="star">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11">
+                                                    <path
+                                                        d="M9 7.02L9.7 11 6 9.12 2.3 11 3 7.02 0 4.2l4.14-.58L6 0l1.86 3.62L12 4.2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="rating">
+                                                <strong>4.2</strong>/5
+                                            </span>
+                                            <span class="count">
+                                                (93)
+                                            </span>
+                                        </div>
+                                    </span>
+                                    <ul class="categories">
+                                        <li>
+                                            <span class="budget-symbol">$</span>
+                                            <span class="budget-symbol">$</span>
+                                            <span>$</span>
+                                        </li>
+                                        <li class="item-description">
+                                            <span>Lunch menus</span>
+                                            <span>Boomgaria</span>
+                                            <span>Italian</span>
+                                            <span>Lunch menu</span>
+                                            <span>Pizza</span>
+                                        </li>
+                                    </ul>
+
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-info">
+            <div class="description">
+                <h2>
+                    <span style="font-size:22px;">Order food for home delivery from best restaurants in Sofia!</span>
+                </h2>
+                <p> The capital of Bulgaria, Sofia's restaurants represent the different cultures of over 2000 years of
+                    history, with something for everybody. Whether your preference is for pizza, sushi or Chinese, there
+                    is
+                    a vast choice of restaurants for home delivery in Sofia. Burgers, sandwiches and noodles will appeal
+                    to
+                    all the family, or order food for a lunch in Sofia for your business colleagues. A burger delivery
+                    in
+                    Sofia is always welcome!
+                </p>
+                <br>
+                <h2>
+                    <span style="font-size:22px;">Best restaurants in Sofia</span>
+                </h2>
+                <p> We only work with the most popular restaurants, so you can order food online or by foodpanda app,
+                    reassured that the menu online is up to date, tempting your taste buds!
+                </p>
+                <ul>
+                    <li>
+                        <span class="link">✓</span> If your family is ready for a Chinese food delivery, we can
+                        recommend <strong>Wok to Walk</strong>, with interesting combinations of spaghetti, rice and
+                        noodles topped with salmon or chicken and delicious sauces,
+                    </li>
+                    <li>
+                        <span class="link">✓</span> <strong>Subway</strong> is renowned for freshly prepared sandwiches,
+                        burritos and wraps, offering a comprehensive menu online of tuna, chicken, ham, turkey or bacon,
+                        with your choice of vegetables, toppings and dressings,
+                    </li>
+                    <li>
+                        <span class="link">✓</span> When you have a craving for a sushi home delivery in Sofia, then
+                        <strong>Sushi King</strong> is a popular choice for authentic Japanese cuisine. Numerous
+                        different sets are available, allowing you to sample different pieces of sushi and sashimi,
+                        served with soy sauce, wasabi and ginger.
+                    </li>
+                </ul>
+                <br>
+                <h2>
+                    <span style="font-size:22px;">Why use foodpanda for a food home delivery in Sofia?</span>
+                </h2>
+                <p> If your family or friends are looking for a quick pizza delivery in Sofia, then using our
+                    <a href="https://www.foodpanda.bg/en/contents/apps">foodpanda app</a> or website is a simple and
+                    convenient process to provide a tasty lunch or dinner. Just find a restaurant you like, enter your
+                    home or office address and choose your dishes from the menu. Don't forget to add your sides and
+                    toppings and check your order on the right side of the page. Once complete, click "Order" and
+                    complete the payment option using a credit card or PayPal account. You will receive confirmation of
+                    your order and an expected delivery time, all you need to do is wait for our friendly rider to
+                    deliver your meal!
+                </p>
+                <br>
+                <h2>
+                    <span style="font-size:22px;">Birthday parties or lunch time and food delivery in Sofia</span>
+                </h2>
+                <p> If the thought of catering for a party fills you with dread, use our delivery service to take the
+                    hassle out of catering. Many restaurants are happy to provide all you need, for adults and children.
+                    Always remember foodpanda for daily living and special celebrations alike!
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <img src="./assets/images/footer-logo.png" alt="logo">
+        </div>
+        <div class="footer-middle">
+            <div class="footer-right-reserved">© 2020 foodpanda</div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="/contents/press.htm">Press</a></li>
+                    <li class="contact-link" id="contact-link"><a href="/contents/contact.htm">Help</a></li>
+                    <li><a href="/contents/contact.htm">Contact and FAQ</a></li>
+                    <li><a href="/contents/terms-and-conditions.htm">Terms and conditions</a></li>
+                    <li><a href="/contents/privacy.htm">Privacy policy</a></li>
+                    <li><a href="/contents/How-it-works">How foodpanda works</a></li>
+                    <li><a href="/contents/apps">Download foodpanda Apps</a></li>
+                    <li><a href="/contents/getlisted.htm">Partner with us</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-popular">
+                <h4>
+                    <a href="#" title="Burger Delivery in Sofia">Burger Delivery in
+                        Sofia</a>
+                </h4>
+                <p>
+                    <a href="#" title="Skaptoburger">Skaptoburger</a>, <a href="#" title="The Burger Faktory">The Burger
+                        Faktory</a>,
+                    <a href="#" title="24 Grill">24 Grill</a>, <a href="#" title="#">MEAT Gourmet Sandwiches and
+                        Burgers</a>, <a href="#" title="Fish &amp; Chips">Fish &amp; Chips</a>
+                </p>
+                <h4>
+                    <a href="#" title="Pizza Delivery Sofia">Pizza Delivery in Sofia</a>
+                </h4>
+                <p>
+                    <a href="#" title="Pizzi Frizzi">Pizzi Frizzi</a>,
+                    <a href="#" title="Пица Лъчони">Пица Лъчони</a>,
+                    <a href="#" title="Пицария Джиков">Пицария Джиков</a>,
+                    <a href="#" title="Pizza XL">Pizza XL</a>,
+                    <a href="#" title="Пицария Капри ">Пицария Капри </a>,
+                    <a href="#" title="Ресторант - пицария Прадо">Ресторант - пицария Прадо</a>,
+                    <a href="#" title="Pizzio">Pizzio</a>,
+                    <a href="#" title="Щастливеца">Щастливеца</a>
+                </p>
+                <h4>
+                    <a href="#" title="Lunch delivery in Sofia">Lunch delivery in Sofia</a>
+                </h4>
+                <p>
+                    <a href="#" title="Ям Ям">Ям Ям</a>,
+                    <a href="#" title="Софистар">Софистар</a>,
+                    <a href="#" title="Dream house - Vegetarian restaurant">Dream house - Vegetarian restaurant</a>,
+                    <a href="#" title="Supa Bar">Supa Bar</a>
+                </p>
+            </div>
+            <div class="footer-popular">
+                <h4>
+                    <a href="#" title="Sushi Delivery Sofia">Sushi</a> &amp;
+                    <a href="#" title="Japanese Food delivery Sofia">Japanese Food Delivery in Sofia</a>
+                </h4>
+                <p>
+                    <a href="#" title="Sushi King">Sushi King</a>,
+                    <a href="#" title="Sushi2go">Sushi2go</a>,
+                    <a href="#" title="Tokyo Sushi">Tokyo Sushi</a>,
+                    <a href="#" title="Haiku Sushi">Haiku Sushi</a>,
+                    <a href="#" title="Umami">Umami</a>,
+                    <a href="#" title="Raffy">Raffy</a>,
+                    <a href="#" title="Sushi Express">Sushi Express</a>
+                </p>
+                <h4>
+                    <a href="#" title="Chinese food Delivery in Sofia">Chinese Food Delivery in Sofia</a>
+                </h4>
+                <p>
+                    <a href="#" title="Цан Чун Гъ">Цан Чун Гъ</a>,
+                    <a href="#" title="Мън Фу Юен">Мън Фу Юен</a>,
+                    <a href="#" title="Небесен Дракон">Небесен Дракон</a>,
+                    <a href="#" title="Happy Golden (Младост)">Happy Golden (Младост)</a>,
+                    <a href="#" title="Тон Шин Юан">Тон Шин Юан</a>,
+                    <a href="#" title="Дворецът на Драконите">Дворецът на Драконите</a>,
+                    <a href="#" title="Славянска беседа">Славянска беседа</a>
+                </p>
+            </div>
+            <div class="footer-popular">
+                <h4>
+                    <a href="#" title=" Bulgarian Food Delivery in Sofia">Bulgarian Food Delivery in Sofia</a>
+                </h4>
+                <p>
+                    <a href="#" title="Ветрило">Ветрило</a>,
+                    <a href="#" title="Софистар">Софистар</a>,
+                    <a href="#" title="Дивака">Дивака</a>,
+                    <a href="#" title="Бирария Прага 18">Бирария Прага 18</a>
+                </p>
+                <h4>
+                    <a href="#" title="Italian Food Delivery in Sofia">Italian Food Delivery in Sofia</a>
+                </h4>
+                <p>
+                    <a href="#" title="Pizza Palace">Pizza Palace</a>,
+                    <a href="#" title="Pizza Fortuna">Pizza Fortuna</a>,
+                    <a href="#" title="Felicita">Felicita</a>,
+                    <a href="#" title="La PastAria">La PastAria</a>,
+                    <a href="#" title="Мис Каприз">Мис Каприз</a>,
+                    <a href="#" title="Pizza Ancora">Pizza Ancora</a>
+                </p>
+            </div>
+            <p>
+                &nbsp;</p>
+        </div>
+    </footer>
+</body>
+
+</html>
